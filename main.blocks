@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="wto}S,gDWqbhX;0}vkcY">a</variable></variables><block type="function_definition" id="_MhK8-+f(9ltDeh%O^!M" x="-298" y="-351"><mutation name="hun" functionid="u)UgSpK)^@mY$(|#vtMU"></mutation><field name="function_name">hun</field><statement name="STACK"><block type="device_show_leds" id=")v#+KqC{ek.Qv`f)Ic/4"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . # . . . 
+        # # # # . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="gsiK+bcYC%*^w}~c`Rrl"><field name="LEDS">`
+        . . . . . 
+        . # . . . 
+        # # # # . 
+        . # # # . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="2?0$Wa-Qzz`!adeb-HrP"><field name="LEDS">`
+        . # . . . 
+        # # # # . 
+        . # # # . 
+        . # . # . 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block><block type="function_definition" id="qXPPUo`tcPXT1a9kEDeK" x="338" y="-236"><mutation name="silm" functionid="k2^eemHLzYhLTB.7(52j"></mutation><field name="function_name">silm</field><statement name="STACK"><block type="basic_show_icon" id="FI!W}IY`9BCP_Ecoh_PL"><field name="i">IconNames.Happy</field><next><block type="basic_show_icon" id="UL|[UXMYex_wdiP*y3}1"><field name="i">IconNames.Asleep</field><next><block type="basic_show_icon" id="{y]2N)Ow1px}w#=S$%j9"><field name="i">IconNames.Sad</field></block></next></block></next></block></statement></block><block type="device_button_event" id="}1rFD48bE]IJKMEQ%=(9" x="5" y="-210"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id="V6*zd6wJgb|PU~VL7wg("><field name="VAR" id="wto}S,gDWqbhX;0}vkcY">a</field><value name="VALUE"><shadow type="math_number" id="c.ZH~(4UMl0,@=RUoMbL"><field name="NUM">1</field></shadow></value></block></statement></block><block type="device_button_event" id="JQ|9.0+VT^DhZ$K`;uFk" x="7" y="-72"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="variables_set" id="cz:6Xtpgd~w{oGT?Bhp^"><field name="VAR" id="wto}S,gDWqbhX;0}vkcY">a</field><value name="VALUE"><shadow type="math_number" id="6,4qMT$+LU;*[Z.|osc$"><field name="NUM">0</field></shadow></value></block></statement></block><block type="device_forever" id="Jo=tW%|sc=a~wnTx76*+" x="-74" y="59"><statement name="HANDLER"><block type="controls_if" id="Fnw#PH@?ohFk;nTwel]y"><mutation elseif="1"></mutation><value name="IF0"><shadow type="logic_boolean" id="m2zYA^5*{`_XfkBf{Ai9"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="^{fWBGM@Zwj.L6_q-F-["><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="phc,JLTE}-l+t=u?$VS8"><field name="NUM">0</field></shadow><block type="variables_get" id="y}3=@=yK,gT3,MneLT:-"><field name="VAR" id="wto}S,gDWqbhX;0}vkcY">a</field></block></value><value name="B"><shadow type="math_number" id="v[VH6Gn9XvE=v@Us2b-I"><field name="NUM">1</field></shadow></value></block></value><statement name="DO0"><block type="function_call" id="-Qe22u:nCZUfQZjJU9mo"><mutation name="hun" functionid="u)UgSpK)^@mY$(|#vtMU"></mutation></block></statement><value name="IF1"><shadow type="logic_boolean" id="9Lcj87HbcSNaJlv`.RS5"><field name="BOOL">FALSE</field></shadow><block type="logic_compare" id="-P[;%;i-^GBc`J9xW]?T"><field name="OP">EQ</field><value name="A"><shadow type="math_number" id="~R$le_J9+:+*@u:ES[l]"><field name="NUM">0</field></shadow><block type="variables_get" id="VY`*~4l.s=^dNph2t_o1"><field name="VAR" id="wto}S,gDWqbhX;0}vkcY">a</field></block></value><value name="B"><shadow type="math_number" id="#BGN_pm-qs=pf;mv]m|o"><field name="NUM">0</field></shadow></value></block></value><statement name="DO1"><block type="function_call" id="R|a!_1RI3MR;$-)Bq-z~"><mutation name="silm" functionid="k2^eemHLzYhLTB.7(52j"></mutation></block></statement></block></statement></block></xml>
